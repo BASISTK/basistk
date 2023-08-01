@@ -1,0 +1,27 @@
+{
+  "name": "basistk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BASISTK/basistk.git"
+  },
+  "author": "basistk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BASISTK/basistk/issues"
+  },
+  "homepage": "https://github.com/BASISTK/basistk#readme",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
